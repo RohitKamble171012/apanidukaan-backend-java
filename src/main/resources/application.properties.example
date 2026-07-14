@@ -1,0 +1,11 @@
+server.port=8080
+
+spring.data.mongodb.uri=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/apanidukaan?retryWrites=true&w=majority
+
+razorpay.key.id=your_razorpay_key_id
+razorpay.key.secret=your_razorpay_key_secret
+razorpay.webhook.secret=your_webhook_secret
+
+app.frontend.base-url=https://apanidukaan.live
+app.upload.dir=./uploads
+app.upload.base-url=http://localhost:8080/uploads
